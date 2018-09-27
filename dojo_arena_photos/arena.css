@@ -1,0 +1,82 @@
+/* * {
+    outline: 1px solid pink;
+} */
+
+.black {
+    background-color: black;
+}
+.beach {
+    background-image: url('beach.jpg');
+}
+.planet {
+    background-image: url('earth.jpg');
+}
+.dojo {
+    background-image: url('dojo.jpg');
+}
+.forest {
+    background-image: url('forest.jpg');
+}
+.matrix {
+    background-image: url('matrix.jpg');
+}
+.snow {
+    background-image: url('snow.jpg');
+}
+
+
+#container {
+    margin: 30px;
+    width: 1000px;
+    height: 600px;
+    border: 10px solid grey;
+}
+.front_menu{
+    background-color: gainsboro;
+    color: black;
+    width: 350px;
+    height: 200px;
+    margin: 150px 0 0 325px;
+    border-radius: 10px;
+    border: 5px solid grey;
+    text-align: center;
+}
+.second_menu{
+    background-color: gainsboro;
+    color: black;
+    width: 350px;
+    height: 200px;
+    margin: 150px 0 0 325px;
+    border-radius: 10px;
+    border: 5px solid grey;
+    text-align: center;
+    display: none;
+}
+button {
+    background-color: whitesmoke;
+    width: 90px;
+    height: 50px;
+    margin: 1px;
+    font-size: 20px;
+}
+#player1 img {
+    width: 150px;
+    height: 200px;
+    position: fixed;
+    margin: 0px 0 0 150px;
+    padding: 10px;
+}
+#player2 img {
+        width: 150px;
+        height: 200px;
+        position: fixed;
+        margin: 0px 0 0 690px;
+        padding: 10px;
+}
+.leo {
+    display: none;
+}
+.rapha {
+    display: none;
+}
+
